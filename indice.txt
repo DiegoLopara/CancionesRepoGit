@@ -1,16 +1,6 @@
-Cancion cancionPrueba = new Cancion();
-		System.out.println(cancionPrueba);
-		
-		Cancion cancionClasico = new Cancion("Sweet Home Alabama", 180);
-		System.out.println(cancionPrueba);
-		
-		Cancion primeraCancion = new Cancion("I Don't Like Mondays", "The Boomtown Rats", 390, true);
-		Cancion segundaCancion = new Cancion("Don’t Stop Believin’", "Journey", 320, false);
-		Cancion terceraCancion = new Cancion("Come Join The Murder", "The White Buffalo & The Forest Rangers", 420, false);
-		Cancion cuartaCancion = new Cancion("Territory", "Sepultura", 450, true);
-		Cancion quintaCancion = new Cancion("Phantom of the opera", "Iron Maiden", 720, true);
-    
-    private static void mostrarCancionesyAutor(Cancion[] canciones) {
-		for (int i = 0; i < canciones.length; i++) {
-			System.out.println("La canción es " + canciones[i].getTitulo() + " de " + canciones[i].getGrupo());
-		}
+        Sweet Home Alabama
+    I Don't Like Mondays
+    Don’t Stop Believin
+    Come Join The Murder
+    Territory
+    Phantom of the opera
